@@ -15,6 +15,7 @@
 		E1BFC1711BCB26200012E1DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BFC16F1BCB26200012E1DA /* LaunchScreen.xib */; };
 		E1BFC17D1BCB26200012E1DA /* calculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BFC17C1BCB26200012E1DA /* calculatorTests.m */; };
 		E1BFC1881BCC39970012E1DA /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BFC1871BCC39970012E1DA /* WhiskeyViewController.m */; };
+		E1BFC18B1BCC92270012E1DA /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BFC18A1BCC92270012E1DA /* MainMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		E1BFC17C1BCB26200012E1DA /* calculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculatorTests.m; sourceTree = "<group>"; };
 		E1BFC1861BCC39970012E1DA /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
 		E1BFC1871BCC39970012E1DA /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
+		E1BFC1891BCC92270012E1DA /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		E1BFC18A1BCC92270012E1DA /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				E1BFC1671BCB26200012E1DA /* ViewController.h */,
 				E1BFC1681BCB26200012E1DA /* ViewController.m */,
 				E1BFC16A1BCB26200012E1DA /* Main.storyboard */,
+				E1BFC1891BCC92270012E1DA /* MainMenuViewController.h */,
+				E1BFC18A1BCC92270012E1DA /* MainMenuViewController.m */,
 				E1BFC16D1BCB26200012E1DA /* Images.xcassets */,
 				E1BFC16F1BCB26200012E1DA /* LaunchScreen.xib */,
 				E1BFC1601BCB26200012E1DA /* Supporting Files */,
@@ -228,6 +233,7 @@
 				E1BFC1881BCC39970012E1DA /* WhiskeyViewController.m in Sources */,
 				E1BFC1661BCB26200012E1DA /* AppDelegate.m in Sources */,
 				E1BFC1631BCB26200012E1DA /* main.m in Sources */,
+				E1BFC18B1BCC92270012E1DA /* MainMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +430,7 @@
 				E1BFC1821BCB26200012E1DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1BFC1831BCB26200012E1DA /* Build configuration list for PBXNativeTarget "calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +439,7 @@
 				E1BFC1851BCB26200012E1DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
